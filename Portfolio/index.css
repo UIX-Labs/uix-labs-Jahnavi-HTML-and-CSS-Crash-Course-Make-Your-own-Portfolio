@@ -6,7 +6,6 @@
 }
 .cont1{
     background-color: #90A4AE;
-    margin: 0%;
     padding: 10px;
   
 }
@@ -58,7 +57,11 @@ form button{
 }
 .cont2{
     background-color: #444444;
-       margin: 0%;
     padding: 10px;
-    color:#8a8989
+    color : #d5d5d5;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
