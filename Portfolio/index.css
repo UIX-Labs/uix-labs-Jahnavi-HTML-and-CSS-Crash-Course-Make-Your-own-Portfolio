@@ -1,12 +1,13 @@
 /* Write your code below for PORTFOLIO */
 *{
-      color: #515050;
-          margin: 0%;
-    padding: 0%;
+  
+    margin:  0px;
+    padding: 10;
 }
 .cont1{
     background-color: #90A4AE;
     padding: 10px;
+    color: #515050;
   
 }
 nav ul{
@@ -17,30 +18,36 @@ nav li{
     list-style-type: none;
 }
 .button{
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
+    margin: 10px;
     border-color: #515050;
+}
+.contact{
+    background-color: transparent;
 }
 img{
     border-radius: 50%;
 }
 form{
     border: 2px solid #ffffff66;
-    background-color: #ffffff66;
+    background-color: #bfbfba;
     display: inline-block;
-    padding: 5px 40px;
+    padding: 5px 5px;
+    margin: 5px;
     border-radius: 15px;
+    color: black;
 }
-form h4{
-    background-color: #ffffff66;
 
-}
 form input{
     width: 400px;
     padding: 5px 20px;
+    margin: 5px;
     background-color: white;
+    border: none;
 }
 form textarea{
+    margin: 5px;
     width: 420px;
     height: 50px;
     background-color: white;
@@ -55,13 +62,27 @@ form button{
     left: 180px;
     margin: 10px;
 }
+.proj{
+    background-color: #444444;
+    color: white;
+}
 .cont2{
     background-color: #444444;
     padding: 10px;
-    color : #d5d5d5;
+    color : #979595;
+}
+.card{
+    margin: 10px;
 }
 .card img{
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    margin: 5px;
+}
+.so{
+    color: white;
+}
+.cont2 i,.cont1 i{
+    margin: 5px;
 }
