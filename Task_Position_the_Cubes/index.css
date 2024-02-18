@@ -1,1 +1,49 @@
 /*  Start coding below for POSITION THE CUBES TASK*/
+.parent{
+    background-color: blueviolet;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+.box1{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+.box2{
+   background-color:  orangered;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box3{
+    background-color: pink ;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+   position: absolute;
+   left: 250px;
+   top: 250px;
+
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color:  gold;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 0;
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    border: 2px solid white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
