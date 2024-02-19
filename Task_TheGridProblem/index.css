@@ -1,1 +1,36 @@
 /* Start coding below for GRID PROBLEM TASK */
+.box{
+    width: 165px;
+    height: 179px;
+    background-color: #620505;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: fit-content;
+    gap: 1px;
+}
+.box4{
+    background-color: red;
+    width: 248px;
+    height: 218px;
+}
+.box5{
+    background-color: green;
+    width: 249px;
+    height: 69px;
+}
+.box6{
+    background-color: blue;
+    width: 249px;
+    height: 146px;
+}
+.p2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ap: 2px;
+    width: fit-content;
+}
+.in{
+    display: grid;
+}
