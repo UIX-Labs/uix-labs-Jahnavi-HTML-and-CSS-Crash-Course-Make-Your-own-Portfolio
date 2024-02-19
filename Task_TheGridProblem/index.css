@@ -28,7 +28,7 @@
 .p2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    ap: 2px;
+    gap: 2px;
     width: fit-content;
 }
 .in{
