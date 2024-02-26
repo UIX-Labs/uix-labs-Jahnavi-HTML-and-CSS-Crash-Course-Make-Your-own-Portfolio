@@ -1,1 +1,162 @@
 /* Write your code below for PORTFOLIO */
+.navi{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #003E66;
+    color: #00D8FF;
+}
+.navi ul{
+    display: flex;
+    gap: 40px;
+    padding: 24px;
+    font-size: larger;
+}
+
+.navi button{
+    margin: 0;
+    width: 150px;
+    height: 45px;
+    border-radius: 21.94px;
+    border: 2px solid #00D8FF;
+    background-color: #003E66;
+    color: #00D8FF;
+}
+.navi div{
+    padding: 18px;
+}
+.head{
+    display: flex;
+    background-color:  #004572;
+    color: #00D8FF;
+    gap: 20px;
+    padding: 40px;
+    padding-left: 200px;
+}
+.head h1{
+   padding: 40px;
+}
+.about{
+    background-color: #003E66;
+    color: #00D8FF;
+    text-align: center;
+}
+.about h2{
+    margin: 0px;
+    padding: 20px;
+}
+.about p{
+    text-align: start;
+    width: 700px;
+    position: relative;
+    left: 280px;
+}
+.about ol{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 0px;
+}
+.about ol li{
+    list-style-type: none;
+    font-size: larger;
+}
+.project{
+    background-color: #004572;
+}
+.project h2{
+    color: #00D8FF;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color:#00D8FF;
+}
+.proj{
+    background-color:#00D8FF;
+    color:#004572;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    background-color: #003E66;
+    color: #00D8FF;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color:#003E66;
+    color: #00D8FF;
+}
+/* Write your code below for PORTFOLIO */
+
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+}
+.button{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #515050;
+}
+.contact{
+    background-color: transparent;
+}
+img{
+    border-radius: 50%;
+}
+form{
+    border: 2px solid #9ABEE9;
+    background-color: #9ABEE9;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 15px;
+    color: black;
+}
+
+form input{
+    width: 400px;
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: white;
+    border: none;
+}
+form textarea{
+    margin: 5px;
+    width: 420px;
+    height: 50px;
+    background-color: white;
+    padding: 5px;
+}
+form button{
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    background-color: #444444;
+    position: relative;
+    left: 180px;
+    margin: 10px;
+}
+
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.so{
+    color: white;
+}
